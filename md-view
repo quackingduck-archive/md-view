@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Get first arg and remove .md extension
+filename=${1/.md/}
+
+# Build the HTML file
+marked < $filename.md | ghstyles | webpager

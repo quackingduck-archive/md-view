@@ -1,0 +1,26 @@
+{
+  "name": "md-view",
+  "version": "0.0.0",
+  "description": "Quickly preview a markdown file with github's aesthetic",
+  "bin": {
+    "md-view": "md-view"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quackingduck/md-view"
+  },
+  "author": "Myles Byrne <myles@myles.id.au>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/quackingduck/md-view/issues"
+  },
+  "keywords": [
+    "github",
+    "markdown"
+  ],
+  "devDependencies": {
+    "webpager": "~0.2.0",
+    "ghstyles": "~0.1.0",
+    "marked": "~0.2.9"
+  }
+}
