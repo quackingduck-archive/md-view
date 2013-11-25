@@ -1,1 +1,11 @@
 Quickly preview a markdown file with github's aesthetic
+
+This is a shell script so you need to install the dependencies globally 
+so it can find them:
+
+    npm install -g webpager
+    npm install -g ghstyles
+    npm install -g marked
+
+Todo: re-implement in node?
+  
